@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MySuperBank
+namespace BankLibrary
 {
-    class Transaction
+    public class Transaction
     {
         public decimal Amount { get; }
         public DateTime Date { get; }

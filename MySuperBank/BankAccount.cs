@@ -64,8 +64,7 @@ namespace MySuperBank
                 histreport.AppendLine($"{item.Date.ToShortDateString()}\t\t${item.Amount}\t {item.Notes}");
             }
             return histreport.ToString();
-            //End of main code
-
+            //New
         }
 
     }
